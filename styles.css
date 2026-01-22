@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+.hero {
+    display: flex;               /* horizontal layout */
+    align-items: center;         /* vertically center image and text */
+    justify-content: flex-start; /* items start from the left */
+    gap: 20px;                   /* space between image and text */
+}
+img{
+	object-fit:cover;
+}
+button{
+	padding:10px;
+	background-color:red;
+	color:white;
+	border:none;
+	border-radius:5px;
+}
+div{
+	text-align:center;
+}
